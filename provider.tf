@@ -7,8 +7,8 @@ provider "azurerm" {
 # Terraform backend config to use Storage Account. 
 terraform {
   backend "azurerm" {
-    resource_group_name  = var.backend_resource_group
-    storage_account_name = var.backend_storage_account
+    resource_group_name  = "rg-terraform-neu-001"
+    storage_account_name = "saterraform001"
     container_name       = "tfstate"
     key                  = "FirewallasCode.tfstate"
   }
