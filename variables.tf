@@ -4,16 +4,6 @@ variable "provider_subscription_id" {
   sensitive   = true
 }
 
-variable "backend_resource_group" {
-  description = "Resource Group of the Storage Account to store state file"
-  type        = string
-}
-
-variable "backend_storage_account" {
-  description = "Storage Account to store state file"
-  type        = string
-}
-
 variable "firewall_policy_resource_group" {
   description = "RG of the Firewall Policy"
   type        = string

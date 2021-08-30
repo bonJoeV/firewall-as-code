@@ -1,6 +1,5 @@
 # Configure the Azure Provider
 provider "azurerm" {
-  subscription_id = var.provider_subscription_id
   features {}
 }
 
