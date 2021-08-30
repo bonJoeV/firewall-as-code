@@ -35,6 +35,6 @@ apply:
     - terraform apply -input=false "planfile"
   only:
     refs:
-      - master
+      - main
   dependencies:
     - plan
