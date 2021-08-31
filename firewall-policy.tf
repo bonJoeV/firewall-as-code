@@ -29,7 +29,7 @@ resource "azurerm_firewall_policy_rule_collection_group" "rule_collection_group"
       protocols             = ["TCP"]
       source_addresses      = ["10.0.0.1"]
       destination_addresses = ["192.168.1.1", "192.168.1.2"]
-      destination_ports     = ["80", "443"]
+      destination_ports     = ["80"]
     }
   }
 }
